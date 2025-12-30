@@ -1,65 +1,34 @@
-# PTPal Privacy Policy
+# PTPal
 
-Last updated: 2024-12-30
-
-## Overview
-
-PTPal does not collect, store, or transmit any personal data.
-
-## Data Handling
-
-| Data Type | Handling |
-|-----------|----------|
-| Photos | Local copy only, never transmitted |
-| Metadata (EXIF) | Display only, never transmitted |
-| Settings | Stored locally on your device only |
-
-## Third-Party Services
-
-PTPal does not use any third-party analytics, advertising, or tracking services.
-
-## Data Collection
-
-We do not collect:
-- Personal information
-- Usage analytics
-- Location data
-- Device identifiers
-
-## Contact
-
-If you have any questions about this privacy policy, please open an issue on our GitHub repository.
-
----
-
-# PTPal プライバシーポリシー
-
-最終更新日: 2024-12-30
+シンプルなPTPカメラ写真インポートアプリ
 
 ## 概要
 
-PTPalは個人データを収集・保存・送信しません。
+PTPalは、デジタルカメラからMacへ写真を簡単にインポートするためのアプリです。
 
-## データの取り扱い
+## 主な機能
 
-| データタイプ | 取り扱い |
-|-------------|----------|
-| 写真 | ローカルコピーのみ、送信なし |
-| メタデータ（EXIF） | 表示のみ、送信なし |
-| 設定 | デバイス内にローカル保存のみ |
+- **PTP対応カメラの自動検出** - USB接続で即座に認識
+- **サムネイルプレビュー** - インポート前に写真を確認
+- **フィルタリング** - 日付やファイルタイプで絞り込み
+- **重複検出** - 既存ファイルとの重複を自動検出
+- **日付別整理** - 撮影日ごとにフォルダ分け
 
-## サードパーティサービス
+## 対応フォーマット
 
-PTPalはサードパーティの分析、広告、トラッキングサービスを一切使用しません。
+- JPEG (.jpg, .jpeg)
+- RAW (.cr2, .cr3, .nef, .arw, .raf, .orf, .rw2, .dng)
+- 動画 (.mov, .mp4, .m4v)
 
-## データ収集
+## システム要件
 
-以下のデータは収集しません：
-- 個人情報
-- 使用状況の分析データ
-- 位置情報
-- デバイス識別子
+- macOS 14.0以降
+- PTP対応デジタルカメラ
 
-## お問い合わせ
+## プライバシー
 
-このプライバシーポリシーについてご質問がある場合は、GitHubリポジトリでIssueを作成してください。
+PTPalは個人データを収集・送信しません。詳細は[プライバシーポリシー](./privacy-policy)をご覧ください。
+
+---
+
+[GitHub](https://github.com/DayBySay/PTPal)
